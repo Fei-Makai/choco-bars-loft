@@ -1,0 +1,17 @@
+$containerWidth: 940px;
+$baselFontSize: 18px;
+
+//colors
+$blue: #61c4d9;
+$darkGreen: #0b4d3c;
+
+//normalize
+@import url("https://necolas.github.io/normalize.css/8.0.1/normalize.css");
+
+//setups
+@import "layout";
+@import url("https://fonts.googleapis.com/css?family=Alegreya+Sans");
+
+//components
+@import "components/banner";
+@import "components/header";
